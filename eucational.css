@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: hsl(272, 49%, 39%); */
+    /* background: linear-gradient(90deg, hsl(274, 100%, 85%) 68%, hsl(272, 49%, 39%) 35%, ); */
+    /* background: linear-gradient(90deg, red, blue ); */
+    /* background: rgb(103, 51, 148); */
+    /* background: linear-gradient( rgb(103, 51, 148) 100%, rgb(222, 179, 255) 68%, rgb(161, 67, 234) 53%); */
+     background: linear-gradient(to left, #887697,#693f89,#3f1068); 
+     max-width: 100%;
+     height: 100vh;
+     width: 100;
+     font-family: "Inter", sans-serif;
+}
+
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header{
+    background-color: floralwhite;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;   
+}
+a {
+    text-decoration: none;
+    color: #030303;
+    font-size: 12px;
+}
+
+.first-ul{
+    gap: 2rem;
+    list-style: none;
+    display: flex;
+}
+main{
+    background-image: url('');
+    background-repeat: no-repeat;
+}
+
+
+.containerr__header__button > button {
+    background-color: #F8ED39;
+    border-radius: 20px;
+    color: #000000;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+.parent-main-header-text{
+    font-family: Comic Sans MS;
+    padding-top: 1rem;
+    font-weight: 3rem;
+    text-align: center;
+}
+.parent-main-box{
+    align-items: center;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+.fist-section{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.fist-section > P:first-of-type{
+    font-family: inter;
+    font-weight: bold;
+}
+.second-section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.third-section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.four-section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.five-section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.six-section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.seven-section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.eight-section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: hsl(272, 49%, 39%); */
+    /* background: linear-gradient(90deg, hsl(274, 100%, 85%) 68%, hsl(272, 49%, 39%) 35%, ); */
+    /* background: linear-gradient(90deg, red, blue ); */
+    /* background: rgb(103, 51, 148); */
+    /* background: linear-gradient( rgb(103, 51, 148) 100%, rgb(222, 179, 255) 68%, rgb(161, 67, 234) 53%); */
+    background: linear-gradient( rgb(103, 51, 148) 100%, rgb(222, 179, 255) 68%, rgb(161, 67, 234) 53%);
+
+}
+
+
+
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+header{
+    background-color: #FDEFFD;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    position: sticky;   
+}
+a {
+    text-decoration: none;
+    color: #030303;
+    font-size: 12px;
+}
+
+ul {
+    gap: 2rem;
+    list-style: none;
+    display: flex;
+}
+
+.containerr__header__button > button {
+    background-color: #F8ED39;
+    border-radius: 20px;
+    color: #000000;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-secton-container-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-secton-container-text{
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: (-50%,-50%);
+}
+.main-secton-container-text > p:first-of-type{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.container-form{
+    height: 70vh;
+    width: 85rem;
+    background-color: #ffffff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 20px;
+    margin-left: 9rem;
+}
+
+.container-form{
+    text-align: center;
+    font-weight: 12rem;
+    color: #000000;
+    padding-top: 1rem;
+}
+.form .input-box{
+    margin-top: 30px;
+}
+.form .input-box input{
+    width: 50%;
+    height: 3rem;
+    border-radius: 15px;
+}
+.form .input-type input{
+    height: 7rem;
+    margin-top: 2rem;
+    width: 50%;
+}
+.last-button-div > button{
+    background-color: #F8ED39;
+    color: #000000;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.last-button-div{
+    padding-top: 2rem;
+}

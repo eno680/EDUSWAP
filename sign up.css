@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: hsl(272, 49%, 39%); */
+    /* background: linear-gradient(90deg, hsl(274, 100%, 85%) 68%, hsl(272, 49%, 39%) 35%, ); */
+    /* background: linear-gradient(90deg, red, blue ); */
+    /* background: rgb(103, 51, 148); */
+    /* background: linear-gradient( rgb(103, 51, 148) 100%, rgb(222, 179, 255) 68%, rgb(161, 67, 234) 53%); */
+     background: linear-gradient(#673395,#DDB2FF,#673395); 
+
+}
+
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+} 
+header{
+    background-color: #FDEFFD;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    position: sticky;   
+}
+a {
+    text-decoration: none;
+    color: #030303;
+    font-size: 12px;
+}
+
+ul {
+    gap: 2rem;
+    list-style: none;
+    display: flex;
+}
+
+
+.containerr__header__button > button {
+    background-color: #F8ED39;
+    border-radius: 20px;
+    color: #000000;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+.parent-container-main{
+    display: flex;
+}
+.parent-container-main-box{
+    height: 110vh;
+    width: 60%;
+    background-color:#ffffff;
+    padding: 70px;
+}
+.parent-container-main-box > h1{
+    color: #8012D6;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label{
+    color: #777777;
+}
+.form .input-box input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+}
+.parent-form{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.last-button{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.last-button > button{
+    background-color: #F8ED39;
+    color: #000000;
+    height: 2.5rem;
+    width: 10rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}

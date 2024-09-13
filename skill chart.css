@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: hsl(272, 49%, 39%); */
+    /* background: linear-gradient(90deg, hsl(274, 100%, 85%) 68%, hsl(272, 49%, 39%) 35%, ); */
+    /* background: linear-gradient(90deg, red, blue ); */
+    /* background: rgb(103, 51, 148); */
+    /* background: linear-gradient( rgb(103, 51, 148) 100%, rgb(222, 179, 255) 68%, rgb(161, 67, 234) 53%); */
+    background: linear-gradient( rgb(103, 51, 148) 100%, rgb(222, 179, 255) 68%, rgb(161, 67, 234) 53%);
+
+}
+
+
+
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+header{
+    background-color: #FDEFFD;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    position: sticky;   
+}
+a {
+    text-decoration: none;
+    color: #030303;
+    font-size: 12px;
+}
+.main-header-text{
+    font-family: Comic Sans MS;
+    padding-top: 1rem;
+    font-weight: 3rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    gap: 2rem;
+    list-style: none;
+    display: flex;
+}
+
+
+.containerr__header__button > button {
+    background-color: #F8ED39;
+    border-radius: 20px;
+    color: #000000;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+ }
+ body{
+    background-image: url('img/image\ 31.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: hidden;
+}
+.parent-box{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+.parent-text{
+    color: #ffffff;
+}
+.main-parent-box{
+    height: 10rem;
+    width: 25rem;
+    background-color:#B379EC;
+    position: relative;
+    top: 6rem;
+    left: 30rem;
+    border-radius: 15px;
+}
+.main-parent-box > p:first-of-type{
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.second-icon-class{
+    display: flex;
+    gap: 2rem;
+    color: #ffffff;
+    position: relative;
+    align-items: center;
+    left: 60rem;
+    top: 7rem;
+}
+
+.third--section{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 65rem;
+}
