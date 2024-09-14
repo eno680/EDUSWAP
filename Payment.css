@@ -40,7 +40,7 @@ a {
     font-size: 12px;
 }
 
-ul {
+.first-ul{
     gap: 2rem;
     list-style: none;
     display: flex;
@@ -184,4 +184,256 @@ a{
     border: none;
     margin-top: 5rem;
     margin-left: 2rem;
+}
+footer{
+    background-color: #151B30;
+}
+.parent__containerbox{
+    max-width: 100%;
+    height: 30vh;
+    background-color: #151B30;
+}
+.parent__containerbox{
+    display: flex;
+}
+.parent__footer{
+    background-color: #151B30;
+    max-width: 100%;
+    height: 30vh;
+}
+.parent__footer__firsttext{
+    display: flex;
+    gap: 3rem;
+    color:floralwhite;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+.footer__firstcontainer{
+    display: flex;
+}
+
+.lorrm{
+    color: floralwhite;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+.first__imageDiv{
+    padding-left: 7rem;
+    margin-top: 2rem;
+}
+.parent__footer{
+    display: flex;
+}
+.parent__footer__navigation{
+    text-decoration: none;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    font-size: larger;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.parent__footer__navigation__second{
+    display: flex;
+}
+.parent__footer__navigation__second{
+    padding-top: 1rem;
+    color: #FFFFFF;
+    font-size: 12px;
+    gap: 0.5rem;
+}
+.parent__footer__navigation__three{
+    color: #FFFFFF;
+    gap: 2px;
+    display: flex;
+    font-size: 12px;
+    padding-top: 0.5rem;
+}
+.parent__footer__fourth{
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+.parent__footer__lastDiv{
+    color: #FFFFFF;
+    padding-left: 4rem;
+    padding-top: 3rem;
+}
+.parent__box{
+    height: 2rem;
+    width: 13rem;
+    border: 1px solid #F8ED39;
+    margin-top: 2rem;
+    background-color: black;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none;
+}
+.parent__box > p:last-of-type{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+}
+.parent__footer__secondlastDiv{
+    padding-left: 16rem;
+    margin-bottom: 15rem;
+}
+.parent__secondfooter{
+    display: flex;
+    gap: 3rem;
+    color: floralwhite;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-left: 2rem; 
+}
+/* .last__image{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+}
+.first__last__image{
+    padding-top: 5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 2rem;
+} */
+footer{
+    background-color: #151B30;
+}
+.parent__containerbox{
+    max-width: 100%;
+    height: 27vh;
+    background-color: #151B30;
+}
+.parent__containerbox{
+    display: flex;
+}
+.parent__footer{
+    background-color: #151B30;
+    max-width: 100%;
+    height: 24.5vh;
+}
+.footer__firstcontainer{
+    display: flex;
+}
+.button-class > button{
+    background-color: #F8ED39;
+    border-radius: 20px;
+    color: #777777;
+    height: 2rem;
+    width: 9rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.button-class{
+    padding-top: 2rem;
+    color: #777777;
+}
+
+.lorrm{
+    color: floralwhite;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    max-width: 100%;
+    line-height: 20px;
+}
+.first__imageDiv{
+    padding-left: 7rem;
+    margin-top: 2rem;
+}
+.parent__footer{
+    display: flex;
+}
+
+.parent__footer__navigation{
+    text-decoration: none;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    font-size: larger;
+    text-decoration: none;
+}
+
+ul{
+    font-size: larger;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.parent__footer__navigation__second{
+    display: flex;
+}
+.parent__footer__navigation__second{
+    padding-top: 1rem;
+    color: #FFFFFF;
+    font-size: 12px;
+    gap: 0.5rem;
+}
+.parent__footer__navigation__three{
+    color: #FFFFFF;
+    gap: 2px;
+    display: flex;
+    font-size: 12px;
+    padding-top: 0.5rem;
+}
+.parent__footer__fourth{
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+.parent__footer__lastDiv{
+    color: #FFFFFF;
+    padding-left: 4rem;
+    padding-top: 3rem;
+}
+.parent__box{
+    height: 2rem;
+    width: 13rem;
+    border: 1px solid #F8ED39;
+    margin-top: 2rem;
+    background-color: black;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none;
+}
+.parent__box > p:last-of-type{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+}
+.parent__footer__secondlastDiv{
+    /* margin-bottom: 15rem; */
+    padding-left: 9rem;
+}
+.parent__secondfooter{
+    display: flex;
+    gap: 3rem;
+    color: floralwhite;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    position: relative;
+    top: 4rem;
+}
+.last__image{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+}
+.first__last__image{
+    padding-top: 5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 2rem;
+}
+.parent__footer__navigation__second{
+    display: flex;
+}
+.parent__footer__secondlastDiv{
+    position: relative;
+    left: 7rem;
 }

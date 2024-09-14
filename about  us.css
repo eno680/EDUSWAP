@@ -79,7 +79,7 @@ a {
     font-size: 12px;
 }
 
-ul {
+.first-ul{
     gap: 2rem;
     list-style: none;
     display: flex;
@@ -149,11 +149,6 @@ footer{
     padding-top: 2rem;
     font-size: larger;
     text-decoration: none;
-}
-ul{
-    font-size: larger;
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 a{
@@ -261,7 +256,8 @@ footer{
     color: floralwhite;
     padding-left: 2rem;
     margin-top: 2rem;
-    max-width: 70%;
+    max-width: 100%;
+    line-height: 20px;
 }
 .first__imageDiv{
     padding-left: 7rem;
@@ -331,16 +327,17 @@ a{
     padding-top: 0.5rem;
 }
 .parent__footer__secondlastDiv{
-    margin-bottom: 15rem;
+    /* margin-bottom: 15rem; */
     padding-left: 9rem;
 }
 .parent__secondfooter{
     display: flex;
     gap: 3rem;
     color: floralwhite;
-    padding-bottom: 5rem;
     padding-top: 3rem;
     padding-left: 2rem;
+    position: relative;
+    top: 4rem;
 }
 .last__image{
     padding-top: 4rem;
@@ -354,4 +351,8 @@ a{
 }
 .parent__footer__navigation__second{
     display: flex;
+}
+.parent__footer__secondlastDiv{
+    position: relative;
+    left: 7rem;
 }
